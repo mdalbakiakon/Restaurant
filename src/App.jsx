@@ -1,11 +1,10 @@
-import { useState } from 'react'
+import TopDishes from "./pages/TopDishes"
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-      
+      <TopDishes />
     </>
   )
 }

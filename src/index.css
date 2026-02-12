@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+:root {
+  --primary-bg: #d6d6d6;
+  --primary-text: #434347;
+  --shadow: #858585;
+}
+
+@font-face {
+  font-family: "Supertalls";
+  src:
+    url("./fonts/Supertalls.otf") format("opentype"),
+    url("./fonts/Supertalls.ttf") format("truetype"); /* fallback */
+  font-style: normal;
+  font-display: swap; /* ensures text is visible while loading */
+}
+
+.font-supertalls {
+  font-family: "Supertalls";
+}
